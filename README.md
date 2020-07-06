@@ -16,7 +16,11 @@ The goal is to create an R script that does the following:
     5. From the data set in step 4, creates a second, independent tidy data set with the average 
        of each variable for each activity and each subject.
 
-The script run_analysis.R does this -including downloading and uncompressing the data files- and outputs the result to a variable called final_data. The comments in the script help to understand the underlying sequence.
+The script run_analysis.R does this -including downloading and uncompressing the data files- and outputs the result to a variable called final_data. 
+
+The comments in the script help to understand the underlying sequence.
+
+Download the final_data.zip file and uncompress it before using read.table to load it into R.
 
 
   
